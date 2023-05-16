@@ -1,5 +1,5 @@
 const PAGE_SIZE = 10
-let currentPage = 80;
+let currentPage = 1;
 let pokemons = [];
 
 const updatePaginationDiv = (currentPage, numPages) => {
